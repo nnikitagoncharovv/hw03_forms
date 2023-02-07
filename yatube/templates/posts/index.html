@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}  
+  <h2> Последние обновления на сайте </h2> 
+  {% for post in page_obj %}
+    {% include 'includes/article.html' %}
+    {% if not forloop.last %}
+      <hr>
+    {% endif %}
+  {% endfor %}
+  <div class="d-flex justify-content-center">
+    <div>
+      {% include 'posts/includes/paginator.html' %}
+    </div>
+  </div>
+{% endblock %}

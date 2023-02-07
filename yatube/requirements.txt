@@ -1,0 +1,9 @@
+asciimatics==1.14.0
+Django==2.2.19
+future==0.18.3
+Pillow==9.4.0
+pyfiglet==0.8.post1
+pytz==2022.7.1
+pywin32==305
+sqlparse==0.4.3
+wcwidth==0.2.5
